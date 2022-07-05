@@ -1,0 +1,11 @@
+asgiref==3.5.2
+distlib==0.3.4
+Django==4.0.5
+filelock==3.7.1
+joblib==1.1.0
+platformdirs==2.5.2
+six==1.16.0
+sqlparse==0.4.2
+threadpoolctl==3.1.0
+tzdata==2022.1
+virtualenv==20.15.0

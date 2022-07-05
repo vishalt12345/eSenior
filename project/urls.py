@@ -19,6 +19,5 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('connect.urls')),
-    path('', include('get_messages_api.urls')),
-    path('api-auth', include('rest_framework.urls')),
+    path('reminder/', include('get_reminders_api.urls'))
 ]
