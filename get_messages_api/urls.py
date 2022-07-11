@@ -1,9 +1,14 @@
-from django.shortcuts import render
-from django.contrib import admin
-from django.urls import path, include 
+# myapi/urls.py
+from django.urls import include, path
+from rest_framework import routers
 from . import views
-from .views import MessageChannel
-# Create your views here.
+
+router = routers.DefaultRouter()
+router.register(r'messages', views.MessageViewSet)
+
+# Wire up our API using automatic URL routing.
+# Additionally, we include login URLs for the browsable API.
 urlpatterns = [
-    path('addmessage/', MessageChannel.as_view()),
+    path('', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]

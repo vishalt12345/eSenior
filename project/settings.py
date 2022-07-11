@@ -41,7 +41,13 @@ INSTALLED_APPS = [
     'get_reminders_api',
     'rest_framework',
     'connect',
- 
+    'get_caregivercart_api',
+    'get_caregivermprofile_api',
+    'get_contacts_api',
+    'get_groups_api',
+    'get_cgmeetings_api',
+    'get_cginterviews_api',
+    'get_analytics_app',
 ]
 
 MIDDLEWARE = [
@@ -80,12 +86,12 @@ WSGI_APPLICATION = 'project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'eseniordb',
-        'USER': 'eseniormanager',
-        'PASSWORD': 'PVRE&=E2kLWng?eU',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'eseniorsdb',
+        'USER': 'djangocreator',
+        'PASSWORD': '62k?NFq_fk#4CYfW',
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '5432',
     }
 }
 

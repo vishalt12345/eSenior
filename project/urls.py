@@ -19,5 +19,8 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('connect.urls')),
-    path('reminder/', include('get_reminders_api.urls'))
+    path('reminder/', include('get_reminders_api.urls')),
+    path('groups/', include('get_groups_api.urls')),
+    path('cgmeetings/', include('get_cgmeetings_api.urls')),
+    
 ]
