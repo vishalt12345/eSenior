@@ -1,8 +1,8 @@
 # eSenior Backend Dev Django Code
 
-To test this code on your local machine:
+To test this code on your local machine: <br> <br>
 
-(Messages in quotes are to be entered in the command line)
+(Messages in quotes are to be entered in the command line) <br> <br>
 
 1. Clone this repository using "git clone [link]" and use "git checkout vishal" to enter my branch. <br> <br>
 2. Once you have entered my branch, check if you have Python installed by using "python --version". If not, install Python <br> <br>
