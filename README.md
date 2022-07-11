@@ -13,4 +13,4 @@ filepath if you are using Windows command line. <br> <br>
 6. Type "pip install -r requirements.txt" to install all the necessary libraries needed to run my project. <br> <br>
 7. To run the project, type "python manage.py runserver" to launch the application at 127.0.0.1:8000. <br> <br>
 
-**For the api urls: go to the urls.py file located in the project folder and in each of the api folders**
+**For the api urls: Go to the urls.py file located in the project folder and in each of the api folders**
