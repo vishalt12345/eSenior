@@ -22,5 +22,12 @@ urlpatterns = [
     path('reminder/', include('get_reminders_api.urls')),
     path('groups/', include('get_groups_api.urls')),
     path('cgmeetings/', include('get_cgmeetings_api.urls')),
+    path('message/', include('get_messages_api.urls')),
+    path('contacts/', include('get_contacts_api.urls')),
+    path('interviews/', include('get_cginterviews_api.urls')),
+    path('profile/', include('get_caregivermprofile_api.urls')),
+    path('cart/', include('get_caregivercart_api.urls')),
+    path('analytics/', include('get_analytics_app.urls')),
+   
     
 ]
