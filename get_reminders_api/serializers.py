@@ -4,7 +4,7 @@ from rest_framework import serializers
 
 from .models import Reminder
 
-class ReminderSerializer(serializers.HyperlinkedModelSerializer):
+class ReminderSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reminder
-        fields = ('id', 'date', 'text')
+        fields = ('id', 'user', 'date', 'text')

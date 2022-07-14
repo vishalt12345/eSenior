@@ -14,3 +14,4 @@ class Message(models.Model):
     )
     message = models.TextField(default="")
     time_sent= models.DateTimeField(auto_now_add=True)
+    
